@@ -3,8 +3,7 @@ import Home from './Pages/HomePage/Home';
 
 function App() {
   return (
-    <div>
-      <h1>Welcome to React world</h1>
+    <div className='bg-slate-100'>
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
