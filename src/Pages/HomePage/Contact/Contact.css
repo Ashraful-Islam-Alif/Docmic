@@ -7,4 +7,7 @@
     margin-top: 56px;
     margin-bottom: 50px;
     box-shadow: 0px 20px 20px #ECE5FF;
+    background-image: url("https://i.ibb.co/6RzS0jG/Ornament-57.jpg"), url("https://i.ibb.co/Mk1R9GX/Ornament-24.jpg");
+    background-position: left bottom, right top;
+    background-repeat: no-repeat;
 }
