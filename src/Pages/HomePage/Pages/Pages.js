@@ -2,14 +2,14 @@ import React from 'react';
 import './Pages.css'
 const Pages = () => {
     return (
-        <div id='pages' class="grid grid-cols-1 lg:grid-cols-3 gap-4 py-12">
+        <div id='pages' class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 py-12">
             <div class=" grid items-center">
                 <img src="https://i.ibb.co/64HwXpr/Frame-22.png" alt="" srcset="" />
             </div>
             <div class="col-span-2">
                 <p className='text-violet-800 py-4'>Our Hospital Feature</p>
-                <h1 className='text-5xl font-medium'>Make An Appointment Easy And Fast Services</h1>
-                <div class="grid grid-cols-2 lg:grid-cols-2 gap-4 py-6">
+                <h1 className='lg:text-5xl text-lg font-medium'>Make An Appointment Easy And Fast Services</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 py-6">
                     <div className='bg-white rounded-md p-4'>
                         <div className='flex justify-between items-center'>
                             <h2 className='text-2xl py-2'>24 Hours Doctor Support</h2>
